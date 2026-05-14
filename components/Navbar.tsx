@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   // Variants for the slide-in drawer
-  const menuVariants: any = {
+  const menuVariants: Variants = {
     closed: {
       x: "-100%",
       transition: { type: "spring", stiffness: 300, damping: 30 },

@@ -1,10 +1,10 @@
 "use client";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 const Hero = () => {
   // Animation variants for floating cards
-  const floatAnim = (delay: number) => ({
+  const floatAnim = (delay: number): Variants => ({
     initial: { y: 0 },
     animate: {
       y: [0, -15, 0],
@@ -18,10 +18,10 @@ const Hero = () => {
   });
   const [text] = useTypewriter({
     words: ["Problem Solver", "Full Stack Developer"],
-    loop: true, // লেখাগুলো বারবার লুপ হবে
-    delaySpeed: 2000, // একটি ফুল টেক্সট দেখানোর পর ২ সেকেন্ড অপেক্ষা করবে
-    typeSpeed: 70, // টাইপিং স্পিড
-    deleteSpeed: 50, // ডিলিট হওয়ার স্পিড
+    loop: true,
+    delaySpeed: 2000,
+    typeSpeed: 70,
+    deleteSpeed: 50,
   });
   return (
     <section className="relative min-h-screen bg-black flex items-center pt-20 overflow-hidden bg-linear-to-l from-blue-950 to-black">
