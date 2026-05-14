@@ -71,7 +71,7 @@ const Hero = () => {
             <div className="w-full h-full bg-linear-to-tr from-blue-900 to-black flex items-center justify-center">
               <span className="text-white/20">
                 <Image
-                  src="/Najmul Huda.png"
+                  src="/najmul-huda.png"
                   alt="Najmul Huda Profile"
                   fill
                   className="object-cover"
