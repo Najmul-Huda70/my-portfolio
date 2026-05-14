@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "category": "Contest",
+    "title": " Onsite ICPC Dhaka Regional Contest 2025",
+    "description": "Successfully secured the 207th position as part of 'Team_Chronicle'. This experience helped me develop a deep understanding of competitive programming and effective team coordination.",
+    "image": "/image/icpc-2025.jpg",
+    "buttons": [
+      {
+        "label": "View ICPC Profile",
+        "link": "https://icpc.global/ICPCID/E20K3SWR4FXW",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "category": "Contest",
+    "title": "Onsite CUET IUPC 2025",
+    "description": "'Team_Chronicle' participated in CUET IUPC 2025 and successfully solved 3 problems.This journey significantly strengthened my problem-solving skills and team coordination.",
+    "image": "/image/cuet-iupc-2025.jpg",
+    "buttons": [
+      {
+        "label": "View Certificate",
+        "link": "https://drive.google.com/file/d/1vveSgbpMGJNK6emSITVXIa2WQkWgRxZf/view?usp=drive_link",
+        "type": "secondary"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "category": "Contest",
+    "title": "NEU CSE FEST 2025",
+    "description": "'Team_Indecisive' participated in NEU CSE FEST 2025 and successfully solved 3 problems.This experience enhanced my technical collaboration and real-time problem-solving skills.",
+    "image": "/image/neu-cse-fest-2025.jpeg",
+    "buttons": [
+      {
+        "label": "View Event",
+        "link": "https://facebook.com/events/s/neu-cse-fest-2025/2054168545057434/",
+        "type": "primary"
+      }
+    ]
+  }
+]
