@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "title": "Sun-Card E-commerce",
+    "description": "A modern e-commerce platform built with Next.js 15, Better Auth, and MongoDB. Features secure user session management and dynamic product listing capabilities.",
+    "image": "/projects/sun-cart.png",
+    "tags": ["Next.js", "MongoDB", "Better Auth", "Tailwind CSS", "TypeScript"],
+    "liveUrl": "https://sun-cart-ltd.vercel.app/",
+    "githubUrl": "https://github.com/Najmul-Huda70/sun-cart",
+    "category": "MERN Stack"
+  },
+  {
+    "id": "2",
+    "title": "Keen Keeper",
+    "description": "Keen Keeper is a social CRM that helps you maintain consistent contact with friends by tracking communication status as on-track, almost due, or overdue.",
+    "image": "/projects/keen-keeper.png",
+    "tags": ["React", "Framer Motion", "TypeScript", "Rechart"],
+    "liveUrl": "https://keen-keeper-indol-five.vercel.app/",
+    "githubUrl": "https://github.com/Najmul-Huda70/B13-A7-keen-keeper",
+    "category": "Frontend"
+  },
+  {
+    "id": "3",
+    "title": "GitHub Issues Tracker",
+    "description": "A streamlined project management tool to track, filter, and prioritize GitHub issues with real-time analytics and a responsive, modern interface.",
+    "image": "/projects/github-issue-tracker.png",
+    "tags": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "liveUrl": "https://najmul-huda70.github.io/GitHub-Issues-Tracker/",
+    "githubUrl": "https://github.com/Najmul-Huda70/GitHub-Issues-Tracker",
+    "category": "Frontend"
+  },
+  {
+    "id": "4",
+    "title": "Learning Management System (LMS)",
+    "description": "A comprehensive educational platform featuring course management, student progress tracking, and interactive lessons. It streamlines digital learning through secure authentication, resource sharing, and a responsive, user-friendly academic dashboard.",
+    "image": "/projects/lms.png",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Postgresql",
+      "Rechart",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://resilient-sunburst-8da6d9.netlify.app/classroom",
+    "githubUrl": "https://github.com/Najmul-Huda70/Learning-Management-System-LMS-",
+    "category": "Full Stack"
+  },
+  {
+    "id": "5",
+    "title": "DigiTols",
+    "description": "Supercharge Your Digital Workflow Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products",
+    "image": "/projects/digitools.png",
+    "tags": ["Next.js", "MongoDB", "Better Auth", "Tailwind CSS"],
+    "liveUrl": "https://digitools-najmul.netlify.app/",
+    "githubUrl": " https://github.com/Najmul-Huda70/digitools",
+    "category": "Frontend"
+  },
+  {
+    "id": "6",
+    "title": "Green Earth",
+    "description": "Green Earth is an eco-friendly e-commerce platform dedicated to reforestation, allowing users to browse diverse tree categories and purchase saplings to build a greener future.",
+    "image": "/projects/green-earth.png",
+    "tags": ["HTML", "CSS", "JavaScript", "DaisyUI"],
+    "liveUrl": "https://najmul-huda70.github.io/Green-Earth/",
+    "githubUrl": "https://github.com/Najmul-Huda70/Green-Earth",
+    "category": "Frontend"
+  },
+  {
+    "id": "7",
+    "title": "English Janala",
+    "description": "A modern, interactive English learning landing page featuring simple user authentication, clean visuals, and tailored lessons to elevate language skills effortlessly.",
+    "image": "/projects/english-janala.png",
+    "tags": ["API", "HTML", "CSS", "JavaScript", "DaisyUI"],
+    "liveUrl": "https://najmul-huda70.github.io/Engilish-Janala/",
+    "githubUrl": "https://github.com/Najmul-Huda70/Engilish-Janala",
+    "category": "Frontend"
+  },
+  {
+    "id": "8",
+    "title": "Tea House",
+    "description": "A premium e-commerce platform showcasing unique tea blends through an elegant, minimalist interface designed for a seamless and high-quality brewing experience.",
+    "image": "/projects/tea.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "liveUrl": "https://najmul-huda70.github.io/tea-house/",
+    "githubUrl": "https://github.com/Najmul-Huda70/tea-house",
+    "category": "Frontend"
+  }
+]
