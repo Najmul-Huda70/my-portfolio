@@ -56,7 +56,7 @@ const AchievementSection = () => {
   return (
     // id="achievement" যোগ করা হয়েছে স্মুথ স্ক্রলিং লিঙ্কের জন্য
     <section
-      id="achievement"
+      id="achievements"
       className="py-24 relative overflow-hidden bg-slate-950 text-white scroll-mt-10"
     >
       {/* Background Decor */}

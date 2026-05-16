@@ -4,7 +4,7 @@ import { Database, Code2, Boxes, Server, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion"; // Framer Motion ইমপোর্ট
 
-const techStack = [
+const Skills = [
   {
     title: "Frontend",
     icon: <Boxes className="w-5 h-5" />,
@@ -72,11 +72,11 @@ const cardVariants: Variants = {
   },
 };
 
-export default function TechStackSection() {
+export default function SkillsSection() {
   return (
     // id="skills" যোগ করা হয়েছে স্মুথ স্ক্রলিংয়ের জন্য
     <section
-      id="skill"
+      id="skills"
       className="relative overflow-hidden bg-[#020817] py-24 scroll-mt-20"
     >
       {/* background blur */}
@@ -105,7 +105,7 @@ export default function TechStackSection() {
           viewport={{ once: true, margin: "-100px" }}
           className="grid gap-8 md:grid-cols-2 xl:grid-cols-3"
         >
-          {techStack.map((category, index) => (
+          {Skills.map((category, index) => (
             <motion.div
               key={index}
               variants={cardVariants}

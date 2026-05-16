@@ -9,10 +9,10 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#" },
     { name: "About", href: "#about" },
-    { name: "Tech Stack", href: "#tech" },
-    { name: "Skill", href: "#skill" },
+    { name: "Skills", href: "#skills" },
     { name: "Qualification", href: "#qualification" },
-    { name: "Project", href: "#project" },
+    { name: "Projects", href: "#projects" },
+    { name: "Achievements", href: "#achievements" },
     { name: "Contact Me", href: "#contact" },
   ];
 
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-4 md:top-6 left-1/2 -translate-x-1/2 z-100 w-[95%] max-w-5xl">
+      <nav className="fixed top-2 md:top-4 left-1/2 -translate-x-1/2 z-100 w-[95%] max-w-5xl">
         <div className="flex items-center justify-between px-4 md:px-6 py-3 bg-gray-900/60 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl">
           {/* Mobile Menu Toggle (Now on the Left) */}
           <button
@@ -59,9 +59,12 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <button className="hidden md:flex btn btn-primary btn-sm rounded-full px-6 normal-case font-semibold border-none bg-blue-600">
-            Hire Me
-          </button>
+          <a href="#contact">
+            {" "}
+            <button className="hidden md:flex btn btn-primary btn-sm rounded-full px-6 normal-case font-semibold border-none bg-blue-600">
+              Hire Me
+            </button>
+          </a>
         </div>
       </nav>
 

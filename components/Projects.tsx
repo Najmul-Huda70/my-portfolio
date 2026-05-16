@@ -53,7 +53,7 @@ const ProjectSection = () => {
 
   return (
     <section
-      id="project"
+      id="projects"
       className="py-24 bg-[#0a0f1d] text-white overflow-hidden"
     >
       <div className="w-11/12 mx-auto px-4">

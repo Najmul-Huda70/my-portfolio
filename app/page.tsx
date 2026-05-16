@@ -1,17 +1,20 @@
 import About from "@/components/About";
 import AchievementSection from "@/components/AchievementSection";
+import ContactSection from "@/components/Contact";
 import Hero from "@/components/Horo";
 import ProjectSection from "@/components/Projects";
-import SkillsSection from "@/components/techStack";
+import Qualification from "@/components/Qualification";
+import SkillsSection from "@/components/Skills";
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero /> <About />
       <SkillsSection />
+      <Qualification />
       <ProjectSection />
       <AchievementSection />
-      <About />
+      <ContactSection />
     </>
   );
 }
