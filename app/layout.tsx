@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
+import CustomCursorBubble from "@/components/CustomCursorBubble";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +36,8 @@ export default function RootLayout({
         <main className="bg-linear-to-l from-blue-950 to-black">
           {children}
         </main>
+        <CustomCursorBubble />
+        <ScrollToTop />
         <Footer />
       </body>
     </html>
