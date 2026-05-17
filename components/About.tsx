@@ -41,7 +41,21 @@ export default function AboutSection() {
                 With experience building{" "}
                 <span className="text-indigo-400 font-bold">10+ projects</span>,
                 I am deeply interested in Data Structures and Backend
-                management.
+                management. As an active competitive programmer, I have solved{" "}
+                <span className="text-indigo-400 font-bold">
+                  1000+ problems
+                </span>{" "}
+                across various platforms and actively participated in major
+                national contests, including Onsite Dhaka Regional{" "}
+                <span className="text-indigo-400 font-bold">ICPC-2025</span>,{" "}
+                <span className="text-indigo-400 font-bold">
+                  CUET IUPC-2025
+                </span>
+                , and the{" "}
+                <span className="text-indigo-400 font-bold">
+                  NEU CSE Fest-2025
+                </span>
+                .
               </p>
 
               {/* ডাউনলোড সিভি বাটন */}
