@@ -37,7 +37,7 @@ export default function Qualification() {
   return (
     <section
       id="qualification"
-      className="bg-linear-to-l from-gray-950 via-gray-900  to-gray-950 text-white py-20 flex flex-col items-center"
+      className=" text-white py-20 flex flex-col items-center"
     >
       <div className="w-11/12 mx-auto px-4">
         <motion.div

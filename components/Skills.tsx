@@ -77,7 +77,7 @@ export default function SkillsSection() {
     // id="skills" যোগ করা হয়েছে স্মুথ স্ক্রলিংয়ের জন্য
     <section
       id="skills"
-      className="relative overflow-hidden bg-[#020817] py-24 scroll-mt-20"
+      className="relative overflow-hidden pb-20 scroll-mt-20"
     >
       {/* background blur */}
       <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-blue-600/10 blur-[120px] pointer-events-none" />

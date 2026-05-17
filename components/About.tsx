@@ -1,11 +1,8 @@
 "use client";
-import { div } from "framer-motion/client";
-import React from "react";
-
 export default function AboutSection() {
   return (
-    <section id="about" className=" bg-linear-to-l from-blue-600/20 to-black">
-      <div className="relative max-w-5xl mx-auto px-6 py-16 text-white overflow-hidden">
+    <section id="about" className=" ">
+      <div className="relative max-w-5xl mx-auto px-6 py-20 text-white overflow-hidden">
         <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-72 h-72 bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
         <div className="absolute bottom-10 right-1/4 w-60 h-60 bg-indigo-600/10 rounded-full blur-[100px] pointer-events-none"></div>
 
@@ -13,7 +10,7 @@ export default function AboutSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight inline-block relative pb-2">
             About Me
-            <span className="absolute bottom-0 left-1/4 right-1/4 h-[3px] bg-linear-to-r from-blue-500 to-indigo-500 rounded-full"></span>
+            <span className="absolute bottom-0 left-1/4 right-1/4 h-.75 bg-linear-to-r from-blue-500 to-indigo-500 rounded-full"></span>
           </h2>
         </div>
 
@@ -69,13 +66,13 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <div className="space-y-4 bg-white/[0.02] border border-white/5 rounded-2xl p-5">
+            <div className="space-y-4 bg-white/2 border border-white/5 rounded-2xl p-5">
               <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-2">
                 Core Focus
               </h4>
 
               {/* স্কিল আইটেম ১ */}
-              <div className="flex items-center gap-3 p-3 bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 rounded-xl transition-all group">
+              <div className="flex items-center gap-3 p-3 bg-white/2 hover:bg-white/5 border border-white/5 rounded-xl transition-all group">
                 <div className="w-10 h-10 bg-blue-500/10 text-blue-400 flex items-center justify-center rounded-lg group-hover:scale-105 transition-transform">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +98,7 @@ export default function AboutSection() {
               </div>
 
               {/* স্কিল আইটেম ২ */}
-              <div className="flex items-center gap-3 p-3 bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 rounded-xl transition-all group">
+              <div className="flex items-center gap-3 p-3 bg-white/2 hover:bg-white/5 border border-white/5 rounded-xl transition-all group">
                 <div className="w-10 h-10 bg-indigo-500/10 text-indigo-400 flex items-center justify-center rounded-lg group-hover:scale-105 transition-transform">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +126,7 @@ export default function AboutSection() {
               </div>
 
               {/* স্কিল আইটেম ৩ */}
-              <div className="flex items-center gap-3 p-3 bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 rounded-xl transition-all group">
+              <div className="flex items-center gap-3 p-3 bg-white/2 hover:bg-white/5 border border-white/5 rounded-xl transition-all group">
                 <div className="w-10 h-10 bg-purple-500/10 text-purple-400 flex items-center justify-center rounded-lg group-hover:scale-105 transition-transform">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -57,7 +57,7 @@ const AchievementSection = () => {
     // id="achievement" যোগ করা হয়েছে স্মুথ স্ক্রলিং লিঙ্কের জন্য
     <section
       id="achievements"
-      className="py-24 relative overflow-hidden bg-slate-950 text-white scroll-mt-10"
+      className="pt-20 pb-24 relative overflow-hidden  text-white scroll-mt-10"
     >
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-125 h-125 bg-blue-600/5 blur-[120px] rounded-full pointer-events-none" />

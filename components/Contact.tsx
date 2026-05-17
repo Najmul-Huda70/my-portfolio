@@ -18,7 +18,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="bg-[#0a0f1d] text-white py-20 px-4 md:px-10 flex flex-col items-center"
+      className=" text-white py-20 px-4 md:px-10 flex flex-col items-center"
     >
       {/* ================= সেকশন হেডার (সেন্টারে) ================= */}
       <motion.div

@@ -52,10 +52,7 @@ const ProjectSection = () => {
   if (loading) return null;
 
   return (
-    <section
-      id="projects"
-      className="py-24 bg-[#0a0f1d] text-white overflow-hidden"
-    >
+    <section id="projects" className="py-24  text-white overflow-hidden">
       <div className="w-11/12 mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -161,7 +158,7 @@ const ProjectSection = () => {
 
         {/* Pagination UI - Based on your uploaded image */}
         {totalPages > 1 && (
-          <div className="mt-20 flex justify-center items-center gap-3">
+          <div className="mt-10 flex justify-center items-center gap-3">
             {/* Prev Button */}
             <button
               onClick={() => paginate(Math.max(1, currentPage - 1))}
